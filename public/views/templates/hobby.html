@@ -1,0 +1,16 @@
+<<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <h2>{{message}}</h2>
+        <h3>Add A Hobby!</h3>
+        <form>
+            <input type="text" Hobby="Hobby" ng-model="hobbyName" />
+            <button class="btn btn-default" ng-click="addHobby()">Add A Hobby</button>
+        </form>
+
+        <h3>Hobbies</h3>
+        <div ng-repeat="hobby in hobbies">
+            <p>{{hobby}}</p>
+        </div>
+    </div>
+
+</div>
